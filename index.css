@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   font-size: 62.5%;
@@ -12,4 +14,9 @@ body {
 .container {
   max-width: 110rem;
   margin: 0 auto;
+}
+.site-header {
+  font-size: 5rem;
+  display: inline-block;
+  font-weight: 500;
 }
