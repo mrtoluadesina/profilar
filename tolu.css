@@ -26,6 +26,19 @@ div.content {
   color: #fff;
   padding: 2rem;
 }
+a.bHome {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: .5rem;
+  font-size: 15px;
+  cursor: pointer;
+  background: #fff;
+  text-decoration: none;
+  color: #240271;
+}
 div.content p {
   font-size: 18px;
   line-height: 1.8;
