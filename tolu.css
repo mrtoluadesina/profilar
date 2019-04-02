@@ -22,3 +22,58 @@ div.aside img {
   height: 100%;
   object-fit: cover;
 }
+div.content {
+  color: #fff;
+  padding: 2rem;
+}
+div.content p {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+div.skills {
+  margin-top: 2rem;
+}
+div.skill {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+div.skill progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 100%;
+  height: 20px;
+}
+progress[value]::-webkit-progress-value {
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    -webkit-animation: animate-stripes 5s linear infinite;
+        animation: animate-stripes 5s linear infinite;
+}
+progress[value]::-webkit-progress-value::before {
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+progress[value]::-webkit-progress-value::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  right: 7px;
+  top: 7px;
+  background-color: white;
+}
+@-webkit-keyframes animate-stripes {
+  100% { background-position: -100px 0px; }
+}
+
+@keyframes animate-stripes {
+  100% { background-position: -100px 0px; }
+}
