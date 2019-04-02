@@ -23,6 +23,33 @@ body {
 .text-center {
   text-align: center;
 }
+main.main {
+  display: grid;
+  grid-template-columns: 33% 34% 33%
+}
+main.main article {
+  border: 1px solid #ccc;
+  margin: 0 5%;
+  height: 70vh;
+  position: relative;
+}
+main.main article img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+main.main article div {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .5rem;
+  background: rgba(255, 255, 255, .5);
+}
+main.main article div p {
+  font-size: 24px;
+  text-align: center;
+}
 .footer {
   position: absolute;
   bottom: 0;
