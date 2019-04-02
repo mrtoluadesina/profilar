@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 html {
 	font-size: 62.5%;
@@ -51,6 +52,7 @@ main.main article div {
 main.main article div p {
 	font-size: 24px;
 	text-align: center;
+	color: #503018;
 }
 .footer {
 	position: absolute;

@@ -1,14 +1,16 @@
 .home-link {
   display: inline-block;
-  padding: 1.1rem;
-  background-color: #b4d6ca;
+  padding: 0.9rem 0.5rem;
   border-radius: 4px;
   position: absolute;
-  top: 44px;
+  top: 56px;
+  left: 80px;
   font-size: 1.3rem;
+  border: 1px solid #777;
 }
 .home-link > a {
   text-decoration: none;
+  color: #3e3e3e;
 }
 .profile-img img {
   width: 100%;
