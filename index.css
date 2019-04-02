@@ -17,6 +17,8 @@ body {
 }
 .site-header {
   font-size: 5rem;
-  display: inline-block;
   font-weight: 500;
+}
+.text-center {
+  text-align: center;
 }
