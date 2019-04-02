@@ -27,4 +27,9 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding: 1rem;
+  background-color: #ccc;
+}
+.site-footer {
+  font-size: 1.4rem;
 }
