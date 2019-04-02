@@ -63,6 +63,13 @@ main.main article div p {
 	font-size: 1.4rem;
 }
 #kingsley-page-body {
-	font-size: 2.5em;
+	font-size: 1.5em;
 	text-align: justify;
+}
+#kingsley-page-body article {
+	border: unset;
+}
+.link-to-home {
+	text-align: center;
+	margin-bottom: 50px;
 }
