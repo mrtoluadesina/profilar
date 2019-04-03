@@ -75,3 +75,10 @@ main.main article div p {
 	text-align: center;
 	margin-bottom: 50px;
 }
+.link-to-home a {
+	border-radius: 5px;
+	padding: 10px 10px;
+	border: 1px solid #333;
+	background-color: #ccc;
+	font-size: 1.75em;
+}
